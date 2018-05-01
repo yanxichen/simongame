@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+ <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-center">Simple Simon Game</h2>
+    </div>
+  </div>	
+     <div class="gamefield">
+		  <div class="setting">
+		    	<div id="settings">
+	<div id="gameNumber"><h2 id="counter">0</h2></div>
+	<div class="btns"><button type="button" class="btn" onClick="gameReset()">Start</button></div>
+	<div class="btns"><button type="button" class="btn" onClick="gameReset()">Reset Game</button></div>
+	</div>
+		  </div>
+          <div id="blue" class="gamebutton" onClick="addToTurn(this.id)"></div>
+          <div id="green" class="gamebutton" onClick="addToTurn(this.id)"></div>
+          <div id="red" class="gamebutton" onClick="addToTurn(this.id)"></div>
+          <div id="yellow" class="gamebutton" onClick="addToTurn(this.id)"></div>
+
+      </div>  
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+    <script  src="js/index.js"></script>
+	
+</body>
+</html>

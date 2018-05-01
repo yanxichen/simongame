@@ -1,0 +1,112 @@
+@import 'https://fonts.googleapis.com/css?family=Muli';
+body {
+  background-color: #071013;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+.gamefield {
+  position: relative;
+  margin: 20px auto;
+  display: block;
+  padding: 0;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.gamebutton {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.setting {
+  z-index: 1;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin-left: -100px;
+  left: 50%;
+  top: 50%;
+  margin-top: -100px;
+  border: 10px solid black;
+
+}
+.align {
+  display: flex;
+  justify-content: center;
+}
+
+#blue {
+  background-color: #0a8484;
+  margin: auto;
+  border: 20px solid #000;
+  border-top-left-radius: 100%;
+}
+
+#blue:active {
+  background-color: #08BDBD;
+}
+
+#green {
+  background-color: #208e0f;
+  margin: auto;
+  border: 20px solid #000;
+  border-top-right-radius: 100%;
+}
+
+#green:active {
+  background-color: #29BF12; 
+}
+
+#red {
+  background-color: #910f25;
+  margin: auto;
+  border: 20px solid #000;
+  border-bottom-left-radius: 100%;
+}
+
+#red:active {
+  background-color: #F21B3F;
+}
+
+#yellow {
+  background-color: #995b0c;
+  margin: auto;
+  border: 20px solid #000;
+  border-bottom-right-radius: 100%;
+}
+
+#yellow:active {
+  background-color: #FF9914;
+}
+
+.btn-sett:hover {
+  color: #29BF12;
+}
+
+#settings {
+  position: absolute;
+  color: black;
+  margin-top: -10px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.btns {
+	padding-bottom: 2em;
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+}
